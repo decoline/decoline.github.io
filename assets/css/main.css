@@ -566,6 +566,9 @@ th {
     box-sizing: border-box;
 }
 
+
+/** Custom Styles **/
+
 body {
     padding: 0;
     margin: 0;
@@ -654,74 +657,6 @@ a:hover {
     margin-bottom: 1em;
 }
 
-.main-content code {
-    padding: 2px 4px;
-    color: #567482;
-    background-color: #f3f6fa;
-    border: solid 1px #dce6f0;
-    border-radius: 0.2rem;
-}
-
-.main-content pre {
-    padding: 0.8rem;
-    margin-top: 0;
-    margin-bottom: 1rem;
-    color: #567482;
-    word-wrap: normal;
-    background-color: #f3f6fa;
-    border: solid 1px #dce6f0;
-    border-radius: 0.3rem;
-}
-
-.main-content pre > code {
-    padding: 0;
-    margin: 0;
-    color: #567482;
-    word-break: normal;
-    white-space: pre;
-    background: transparent;
-    border: 0;
-}
-
-.main-content .highlight {
-    margin-bottom: 1rem;
-    border-radius: 0.3rem;
-}
-
-.main-content .highlight pre {
-    margin-bottom: 0;
-    word-break: normal;
-}
-
-.main-content .highlight pre,
-.main-content pre {
-    padding: 0.8rem;
-    overflow: auto;
-    line-height: 1.5;
-    border-radius: 0.3rem;
-    -webkit-overflow-scrolling: touch;
-}
-
-.main-content pre code,
-.main-content pre tt {
-    display: inline;
-    max-width: initial;
-    padding: 0;
-    margin: 0;
-    overflow: initial;
-    line-height: inherit;
-    word-wrap: normal;
-    background-color: transparent;
-    border: 0;
-}
-
-.main-content pre code:before,
-.main-content pre code:after,
-.main-content pre tt:before,
-.main-content pre tt:after {
-    content: normal;
-}
-
 .main-content ul,
 .main-content ol {
     margin-top: 0;
@@ -793,6 +728,74 @@ a:hover {
     margin: 1rem 0;
     background-color: #eff0f1;
     border: 0;
+}
+
+.main-content code {
+    padding: 2px 4px;
+    color: #567482;
+    background-color: #f3f6fa;
+    border: solid 1px #dce6f0;
+    border-radius: 0.2rem;
+}
+
+.highlight > pre {
+    padding: 0.8rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #567482;
+    word-wrap: normal;
+    background-color: #f3f6fa;
+    border: solid 1px #dce6f0;
+    border-radius: 0.3rem;
+}
+
+.highlight > pre > code {
+    padding: 0;
+    margin: 0;
+    color: #567482;
+    word-break: normal;
+    white-space: pre;
+    background: transparent;
+    border: 0;
+}
+
+.highlight {
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+}
+
+.highlight > pre {
+    margin-bottom: 0;
+    word-break: normal;
+}
+
+.highlight > pre,
+.highlight > pre {
+    padding: 0.8rem;
+    overflow: auto;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+    -webkit-overflow-scrolling: touch;
+}
+
+.highlight > pre code,
+.highlight > pre tt {
+    display: inline;
+    max-width: initial;
+    padding: 0;
+    margin: 0;
+    overflow: initial;
+    line-height: inherit;
+    word-wrap: normal;
+    background-color: transparent;
+    border: 0;
+}
+
+.highlight > pre code:before,
+.highlight > pre code:after,
+.highlight > pre tt:before,
+.highlight > pre tt:after {
+    content: normal;
 }
 
 .site-footer {
@@ -948,17 +951,17 @@ ul.social-links li {
     margin-top: 3em;
 }
 
-.main-content .highlight table > tbody > tr > td {
+.highlight table > tbody > tr > td {
     padding: 0;
     border: none;
 }
 
-.main-content .highlight table > tbody > tr > td > pre {
+.highlight table > tbody > tr > td > pre {
     padding: 0;
     border: none;
 }
 
-.main-content .highlight table > tbody > tr > td > pre.lineno {
+.highlight table > tbody > tr > td > pre.lineno {
     padding: 0 0.9rem 0 0.4rem;
     color: #0003;
 }
@@ -1043,7 +1046,7 @@ body,
 }
 
 .main-content code,
-.main-content pre > code {
+.highlight > pre > code {
     color: #566882;
 }
 
