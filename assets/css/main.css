@@ -1044,8 +1044,9 @@ body,
     color: #607590;
 }
 
+.main-content code,
 .main-content pre > code {
-    color: #566782;
+    color: #566882;
 }
 
 .highlight .nv {
