@@ -30,7 +30,7 @@ disqus_id: decopath
 twitter_username: dreamygoal
 facebook_username: dreamygoal
 weibo_username: dreamygoal
-# instagram_username: dreamygoal
+github_username: decoline
 
 # Paginate settings
 paginate_path: "/page-:num/"
