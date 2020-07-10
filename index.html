@@ -1,0 +1,21 @@
+---
+layout: home
+title: Home
+---
+<section class="main-content">
+
+    <ul class="post-list">
+        {% for post in paginator.posts %}
+        <li>
+            <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+            <span class="post-meta">Posted on {{ post.date | date: "%b %-d, %Y" }}</span>
+            <p>{{ post.excerpt }}<a href="{{ post.url | prepend: site.baseurl }}" class="read-more">...read more</a></p>
+        </li>
+        {% endfor %}
+    </ul>
+
+    {% include paginator.html %}
+
+    {% include footer.html %}
+
+</section>

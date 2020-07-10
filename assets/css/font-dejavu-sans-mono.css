@@ -1,0 +1,29 @@
+/* Fonts */
+
+@font-face {
+    font-family: 'Dejavu Sans Mono';
+    src: url('../fonts/DejavuSansMono.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dejavu Sans Mono';
+    src: url('../fonts/DejavuSansMono-Oblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Dejavu Sans Mono';
+    src: url('../fonts/DejavuSansMono-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dejavu Sans Mono';
+    src: url('../fonts/DejaVuSansMono-BoldOblique.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}

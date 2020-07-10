@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+{% include head.html %}
+
+<body>
+
+    {% include header.html %}
+
+    <section class="main-content">
+
+        <h2 class="post-title">{{ page.title }}</h2>
+
+        {% if page.date %}
+        <span class="post-meta">Posted{% if page.author %} by {% if page.author_link %}<a href="https://{{ page.author_link }}" target="_blank" >{{ page.author }}</a>{% else %}{{ page.author }}{% endif %}{% endif %} on {{ page.date | date: "%b %-d, %Y" }}{% if page.comments %} <strong>&middot;</strong> <a href="{{ post.url | prepend: site.baseurl }}#disqus_thread">Post a comment</a>{% endif %}</span>
+        {% endif %}
+
+        {{ content }}
+
+        <div class="post-navigator">
+            {% if page.previous.url %}
+            <a class="prev" href="{{page.previous.url}}"><i>&laquo; {{page.previous.title}}</i></a>
+            {% endif %}
+            {% if page.next.url %}
+            <a class="next" href="{{page.next.url}}"><i>{{page.next.title}} &raquo;</i></a>
+            {% endif %}
+        </div>
+
+        {% if page.comments %}
+        {% include disqus.html %}
+        {% endif %}
+
+        {% include footer.html %}
+
+    </section>
+</body>
+
+</html>

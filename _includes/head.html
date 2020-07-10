@@ -1,0 +1,9 @@
+<head>
+    <meta charset="UTF-8">
+    <title>{% if page.title != "Home" %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    {% seo title=false description=false %}
+    {% include favicon.html %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <link rel="stylesheet" href="{{ post.url | prepend: site.baseurl }}/assets/css/main.css">
+</head>

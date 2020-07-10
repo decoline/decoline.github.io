@@ -1,0 +1,32 @@
+<footer class="site-footer">
+    <p class="copyright">&copy;{{ site.time | date:'%Y' }} <a href="{{ site.url }}/">{{ site.title | upcase }}@GITHUB</a></p>
+    <ul class="social-links" id="contacts">
+        {% if site.twitter_username %}
+        <li><a href="http://twitter.com/{{ site.twitter_username }}" class="fa fa-twitter"></a></li>
+        {% endif %}
+        {% if site.facebook_username %}
+        <li><a href="http://facebook.com/{{ site.facebook_username }}" class="fa fa-facebook-f"></a></li>
+        {% endif %}
+        {% if site.weibo_username %}
+        <li><a href="http://weibo.com/{{ site.weibo_username }}" class="fa fa-weibo"></a></li>
+        {% endif %}
+        {% if site.instagram_username %}
+        <li><a href="http://instagram.com/{{ site.instagram_username }}" class="fa fa-instagram"></a></li>
+        {% endif %}
+        {% if site.email %}
+        <li><a href="mailto:{{ site.email }}" class="fa fa-envelope"></a></li>
+        {% endif %}
+        <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}" class="fa fa-rss"></a></li>
+    </ul>
+</footer>
+
+{% if site.goolge_analytics_id %}
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.goolge_analytics_id }}"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', '{{ site.goolge_analytics_id }}');
+</script>
+{% endif %}
