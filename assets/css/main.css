@@ -1194,16 +1194,20 @@ body,
 @media screen and (max-width: 42em) {
 
     h1 {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 
     h2,
     .main-content h2.post-title {
-        font-size: 1.25rem;
+        font-size: 1.2rem;
     }
 
     h3 {
         font-size: 1rem;
+    }
+
+    h4 {
+        font-size: 0.8rem;
     }
 
     .main-content {
