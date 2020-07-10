@@ -1023,16 +1023,11 @@ ul.social-links li {
     background-image: linear-gradient(120deg, #155799, #803e5c);
 }
 
-a {
-    color: #3887da;
-}
-
-a:hover {
-    color: #2769a2;
-}
-
-ul.post-list li a:hover, ul.social-links li a:hover {
-    color: #3887da;
+a,
+a:hover,
+ul.post-list li a:hover,
+ul.social-links li a:hover {
+    color: #5585c5;
 }
 
 .main-content pre > code {
