@@ -668,8 +668,7 @@ a:hover {
     margin: 1rem 0;
     color: #819198;
     color: #66808c;
-    font-family: Times New Roman, Noto Serif CJK SC, serif;
-    font-style: italic;
+    font-family: serif, Noto Serif CJK SC;
     border-left: 0.3rem solid #dce6f0;
     background-color: #f1f5f9;
     background-color: #f3f6fa;
