@@ -1014,6 +1014,50 @@ ul.social-links li {
 }
 
 
+/** Color Themes **/
+
+.page-header {
+    background-image: linear-gradient(120deg, #155799, #5a212f);
+    background-image: linear-gradient(120deg, #155799, #691e30);
+    background-image: linear-gradient(120deg, #155799, #5a2633);
+    background-image: linear-gradient(120deg, #155799, #803e5c);
+}
+
+a,
+a:hover,
+ul.post-list li a:hover,
+ul.social-links li a:hover {
+    color: #5585c5;
+}
+
+body,
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4,
+.main-content h5,
+.main-content h6 {
+    color: #606771;
+}
+
+.main-content blockquote {
+    color: #607590;
+}
+
+.main-content code,
+.main-content pre > code {
+    color: #566882;
+}
+
+.highlight .nv {
+    color: #0063ab;
+}
+
+.highlight .nb {
+    color: #0078b3;
+}
+
+
 /** Media Queries **/
 
 @media all and (orientation:landscape) {
@@ -1147,49 +1191,7 @@ ul.social-links li {
     }
 }
 
-
-/** Color Themes **/
-
-.page-header {
-    background-image: linear-gradient(120deg, #155799, #5a212f);
-    background-image: linear-gradient(120deg, #155799, #691e30);
-    background-image: linear-gradient(120deg, #155799, #5a2633);
-    background-image: linear-gradient(120deg, #155799, #803e5c);
-}
-
-a,
-a:hover,
-ul.post-list li a:hover,
-ul.social-links li a:hover {
-    color: #5585c5;
-}
-
-body,
-.main-content h1,
-.main-content h2,
-.main-content h3,
-.main-content h4,
-.main-content h5,
-.main-content h6 {
-    color: #606771;
-}
-
-.main-content blockquote {
-    color: #607590;
-}
-
-.main-content code,
-.main-content pre > code {
-    color: #566882;
-}
-
-.highlight .nv {
-    color: #0063ab;
-}
-
-.highlight .nb {
-    color: #0078b3;
-}
+/** Resize **/
 
 @media screen and (max-width: 42em) {
 
@@ -1212,6 +1214,7 @@ body,
 
     .main-content {
         font-size: 0.8rem;
+        line-height: 1.3rem;
     }
 
     .post-meta {
