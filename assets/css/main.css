@@ -743,7 +743,15 @@ a:hover {
 }
 
 .main-content > pre {
-    padding: 0.8rem;
+    padding: 0.8rem 1.2rem;
+}
+
+.main-content div.highlight > pre {
+    padding: 0.8rem 0;
+}
+
+.main-content figure.highlight > pre {
+    padding: 0.8rem 0.8rem 0;
 }
 
 .main-content > pre,
@@ -770,15 +778,6 @@ a:hover {
     word-wrap: normal;
     background-color: transparent;
     border: 0;
-}
-
-.highlight {
-    margin-bottom: 1rem;
-    border-radius: 0.3rem;
-}
-
-.highlight > pre {
-    padding: 0.8rem 0.8rem 0;
 }
 
 .highlight > pre code:before,
@@ -917,10 +916,6 @@ ul.post-list li a.read-more {
 
 ul.post-list li a.read-more:hover {
     color: #2a9889;
-}
-
-p > code {
-    font-size: 0.85em;
 }
 
 footer.site-footer {
