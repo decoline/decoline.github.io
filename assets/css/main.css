@@ -558,10 +558,6 @@ th {
     color: #bbbbbb;
 }
 
-.highlight {
-    background-color: #f8f8f8;
-}
-
 * {
     box-sizing: border-box;
 }
@@ -742,22 +738,10 @@ a:hover {
     border-radius: 0.2rem;
 }
 
-.main-content > pre {
-    padding: 0.8rem 1.2rem;
-}
-
-.main-content div.highlight > pre {
-    padding: 0.8rem 0;
-}
-
-.main-content figure.highlight > pre {
-    padding: 0.8rem 0.8rem 0;
-}
-
 .main-content > pre,
 .highlight > pre {
-    margin-top: 0;
-    margin-bottom: 1rem;
+    padding: 0.8rem 1rem;
+    margin: 0 0 1rem;
     line-height: 1.5;
     color: #567482;
     word-wrap: normal;
@@ -790,16 +774,11 @@ a:hover {
 .highlight > pre > code {
     display: block;
     padding: 0;
-    margin: 0 0 0.8rem;
     color: #567482;
     word-break: normal;
     white-space: pre;
     background: transparent;
     border: 0;
-}
-
-.highlight > pre.highlight > code {
-    margin: 0;
 }
 
 .highlight table > tbody > tr > td {
@@ -809,12 +788,12 @@ a:hover {
 
 .highlight table > tbody > tr > td > pre {
     padding: 0;
-    margin-bottom: 0.8rem;
     border: none;
 }
 
 .highlight table > tbody > tr > td > pre.lineno {
-    padding: 0 1rem 0 0.5rem;
+    padding: 0 0.8rem 0 0;
+    text-align: right;
     color: #0003;
 }
 
