@@ -742,13 +742,12 @@ a:hover {
     border-radius: 0.2rem;
 }
 
-.highlight {
-    margin-bottom: 1rem;
-    border-radius: 0.3rem;
+.main-content > pre {
+    padding: 0.8rem;
 }
 
+.main-content > pre,
 .highlight > pre {
-    padding: 0.8rem 0.8rem 0;
     margin-top: 0;
     margin-bottom: 1rem;
     line-height: 1.5;
@@ -759,25 +758,7 @@ a:hover {
     border-radius: 0.3rem;
 }
 
-.highlight > pre > code {
-    display: block;
-    padding: 0;
-    margin: 0 0 0.8rem;
-    color: #567482;
-    word-break: normal;
-    white-space: pre;
-    background: transparent;
-    border: 0;
-}
-
-.highlight > pre.highlight {
-    padding: 0.8rem;
-}
-
-.highlight > pre.highlight > code {
-    margin: 0.;
-}
-
+.main-content > pre > code,
 .highlight > pre code,
 .highlight > pre tt {
     display: inline;
@@ -791,11 +772,35 @@ a:hover {
     border: 0;
 }
 
+.highlight {
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+}
+
+.highlight > pre {
+    padding: 0.8rem 0.8rem 0;
+}
+
 .highlight > pre code:before,
 .highlight > pre code:after,
 .highlight > pre tt:before,
 .highlight > pre tt:after {
     content: normal;
+}
+
+.highlight > pre > code {
+    display: block;
+    padding: 0;
+    margin: 0 0 0.8rem;
+    color: #567482;
+    word-break: normal;
+    white-space: pre;
+    background: transparent;
+    border: 0;
+}
+
+.highlight > pre.highlight > code {
+    margin: 0;
 }
 
 .highlight table > tbody > tr > td {
