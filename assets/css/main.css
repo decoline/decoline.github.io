@@ -1158,7 +1158,8 @@ body,
 
     .main-content {
         padding: 2rem 1rem;
-        font-size: 0.95rem;
+        font-size: 0.9rem;
+        line-height: 1.5rem;
     }
 
     .site-footer {
