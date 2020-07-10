@@ -1212,6 +1212,10 @@ body,
         font-size: 0.8rem;
     }
 
+    code, kbd, pre, samp {
+        font-size: 0.7rem;
+    }
+
     .main-content {
         font-size: 0.8rem;
         line-height: 1.3rem;
@@ -1220,7 +1224,7 @@ body,
     .post-meta {
         font-size: 0.7rem;
     }
-    
+
     .post-navigator {
         font-size: 0.7rem;
     }
