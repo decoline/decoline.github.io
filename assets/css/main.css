@@ -1220,6 +1220,10 @@ body,
     .post-meta {
         font-size: 0.7rem;
     }
+    
+    .post-navigator {
+        font-size: 0.7rem;
+    }
 
     .site-footer {
         font-size: 0.7rem;
