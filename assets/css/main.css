@@ -1029,6 +1029,9 @@ ul.post-list li a:hover,
 ul.social-links li a:hover {
     color: #5585c5;
 }
+.main-content blockquote {
+    color: #607590;
+}
 
 .main-content pre > code {
     color: #566782;
