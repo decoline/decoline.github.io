@@ -1017,7 +1017,10 @@ ul.social-links li {
 /** Color Themes **/
 
 .page-header {
-    background-image: linear-gradient(120deg, #155799, #991535);
+    background-image: linear-gradient(120deg, #155799, #5a212f);
+    background-image: linear-gradient(120deg, #155799, #691e30);
+    background-image: linear-gradient(120deg, #155799, #5a2633);
+    background-image: linear-gradient(120deg, #155799, #803e5c);
 }
 
 a {
