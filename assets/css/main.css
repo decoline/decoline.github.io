@@ -1021,11 +1021,15 @@ ul.social-links li {
 }
 
 a {
-    color: #388ac5;
+    color: #3887da;
 }
 
 a:hover {
     color: #66ace8;
+}
+
+ul.post-list li a:hover, ul.social-links li a:hover {
+    color: #3887da;
 }
 
 .main-content pre > code {
