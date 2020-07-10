@@ -568,7 +568,7 @@ th {
 body {
     padding: 0;
     margin: 0;
-    font-family: "Noto Sans", "Source Sans Pro", "Noto Sans SC", "Noto Sans CJK SC", "Calibri", "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
+    font-family: "Source Sans Pro", "PingFang SC", "Noto Sans SC", "Noto Sans CJK SC", "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
     font-size: 14px;
     line-height: 1.5;
     color: #606c71;
@@ -668,7 +668,7 @@ a:hover {
     margin: 1rem 0;
     color: #819198;
     color: #66808c;
-    font-family: Times New Roman, serif, Noto Serif CJK SC;
+    font-family: "Times New Roman", serif, "Noto Serif SC", "Noto Serif CJK SC";
     border-left: 0.3rem solid #dce6f0;
     background-color: #f1f5f9;
     background-color: #f3f6fa;
