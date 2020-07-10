@@ -1,7 +1,7 @@
 {
     "name":"DECOLINE",
     "short_name":"",
-    "start_url": "https://decoline.githib.io/cayman-jekyll-blog",
+    "start_url": "https://decoline.githib.io",
     "icons":
     [{
         "src":"assets/images/favicons/android-chrome-192x192.png",

@@ -1014,6 +1014,32 @@ ul.social-links li {
 }
 
 
+/** Color Themes **/
+
+.page-header {
+    background-image: linear-gradient(120deg, #155799, #991535);
+}
+
+a {
+    color: #388ac5;
+}
+
+a:hover {
+    color: #66ace8;
+}
+
+.main-content pre > code {
+    color: #566782;
+}
+
+.highlight .nv {
+    color: #0063ab;
+}
+
+.highlight .nb {
+    color: #0078b3;
+}
+
 /** Media Queries **/
 
 @media all and (orientation:landscape) {
