@@ -17,7 +17,7 @@
 title: DECOLINE
 description: design with code.
 domain: decoline.github.io
-email: mail@decopath.com
+email: decoline@outlook.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://decoline.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -27,8 +27,8 @@ goolge_analytics_id: UA-142545149-2
 disqus_id: deco-line
 
 # Social links
-twitter_username: dreamygoal
-facebook_username: dreamygoal
+twitter_username: decoline_
+facebook_username: the.decoline
 weibo_username: dreamygoal
 
 # Paginate settings
